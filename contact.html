@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معي - إبراهيم الفريح</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Amiri', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            text-align: right;
+            direction: rtl;
+        }
+        header {
+            background: linear-gradient(to right, #ff8c00, #ff4500);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #1a1a1a;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ff8c00;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff4500;
+        }
+        main {
+            padding: 20px;
+        }
+        main h2 {
+            color: #ff8c00;
+            font-size: 2rem;
+        }
+        main form {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        main form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #ff8c00;
+        }
+        main form input,
+        main form textarea,
+        main form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+        main form input,
+        main form textarea {
+            background: #333;
+            color: #e0e0e0;
+        }
+        main form button {
+            background: #ff4500;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        main form button:hover {
+            background: #ff8c00;
+        }
+        footer {
+            background: #0d0d0d;
+            color: #999;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>تواصل معي</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">عنّي</a></li>
+            <li><a href="projects.html">مشاريعي</a></li>
+            <li><a href="contact.html" class="active">تواصل معي</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>ابقَ على تواصل</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+            
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+            
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+            
+            <button type="submit">إرسال</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 إبراهيم الفريح | جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>

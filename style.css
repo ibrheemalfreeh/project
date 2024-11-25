@@ -1,0 +1,126 @@
+
+/* Reset and general styles */
+body {
+    font-family: 'Amiri', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    text-align: right;
+    direction: rtl;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #ff8c00, #ff4500);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #1a1a1a;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff8c00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #ff8c00;
+    font-size: 2rem;
+}
+
+main p {
+    line-height: 1.8;
+}
+
+/* Projects and forms */
+.project, form {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.project h3, form label {
+    color: #ff4500;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+form input, form textarea {
+    background: #333;
+    color: #e0e0e0;
+}
+
+form button {
+    background: #ff4500;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ff8c00;
+}
+
+/* Footer styles */
+footer {
+    background: #0d0d0d;
+    color: #999;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.profile-image {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+<img src="ksa.png" alt="صورة تعبيرية" style="width: 300px; height: auto; display: block; margin: 20px auto; border-radius: 8px;">
+
+
+
+
